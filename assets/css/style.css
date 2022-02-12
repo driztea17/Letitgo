@@ -545,11 +545,37 @@ section {
 /*-------------------------------------------------------------
 # Breathe Section
 ---------------------------------------------------------------*/
+.button {
+  border: none;
+  color: rgb(0, 0, 0);
+  background-color: #c4b2b4;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover{
+  border: none;
+  color: rgb(255, 228, 228);
+  background-color: #494142;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 #breathe {
   width: 100%;
   padding: 0%;
-  height: 40%;
-  background-image: linear-gradient(3deg, #DABEBA,#FFE5DE);
+  height: 300px;
+  background-color: #f1e2e2;
 }
 
 #breathe .breathe-writeup h1 {
